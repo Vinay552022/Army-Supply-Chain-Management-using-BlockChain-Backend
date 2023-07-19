@@ -55,6 +55,7 @@ app.get("/", async function(req, res) {
     let send=await cli.db("SCM").collection("transactions").insertOne(E);
     
  })
+ 
 
 
   app.post("/",async (req,res)=>{
